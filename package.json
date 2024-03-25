@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon",
+    "dev": "node src/router/routeGen.mjs && nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

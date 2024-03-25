@@ -4,7 +4,7 @@ import helmet from "helmet"; // helps to secure Express app out of the box
 import type { Express } from "express";
 import morgan from "morgan";
 import { config } from "../config";
-import indexRouter from "../api";
+import indexRouter from "../router/router";
 import { notFoundHandler, globalErrorHandler } from "../middleware/error";
 
 export async function expressLoader(app: Express) {
