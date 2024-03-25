@@ -26,6 +26,14 @@ yarn
 yarn run dev
 ```
 
+- Add the env
+```bash
+PORT=8000
+MORGAN=':method :url :status (Content Length :res[content-length]) - :response-time ms :user-agent'
+MONGO_URI=test
+API_BASE_URL=http://localhost:8000
+```
+
 ## Folder Structure
 
 ```bash
